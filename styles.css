@@ -1,132 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Muli", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #logo {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
-  
+
 #logo .logo {
-    color: #55a4f9;
-    font-family: Oswald;
-    font-size: 2.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 1px 2px #000000d2;
+  color: #55a4f9;
+  font-family: Oswald;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px #000000d2;
 }
 
 #logo .curve {
-    position: absolute;
-    top: 45px;
-    border-radius: 50%;
-    background-color: #fff;
-    height: 20px;
-    width: 100%;
+  position: absolute;
+  top: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 20px;
+  width: 100%;
 }
 
 .text {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .nav-btn {
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    font-size: 25px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 25px;
 }
 
 .open-btn {
-    position: fixed;
-    top: 10px;
-    left: 10px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 
 .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav.visible {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .nav-black {
-    background-color: #111;
-    width: 60%;
-    max-width: 480px;
-    min-width: 320px;
-    transition-delay: 0.4s;
+  background-color: #111;
+  width: 60%;
+  max-width: 480px;
+  min-width: 320px;
+  transition-delay: 0.4s;
 }
 
 .nav-black.visible {
-    transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .nav-blue {
-    background-color: #55a4f9;
-    width: 95%;
-    transition-delay: 0.2s;
+  background-color: #55a4f9;
+  width: 95%;
+  transition-delay: 0.2s;
 }
 
 .nav-blue.visible {
-    transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .nav-white {
-    position: relative;
-    background-color: #fff;
-    width: 95%;
-    padding: 40px;
-    transition-delay: 0s;
+  position: relative;
+  background-color: #fff;
+  width: 95%;
+  padding: 40px;
+  transition-delay: 0s;
 }
 
 .nav-white.visible {
-    transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .close-btn {
-    position: absolute;
-    top: 40px;
-    right: 30px;
-    opacity: 0.5;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  opacity: 0.5;
 }
 
 .list {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .list li {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .list li a {
-    color: #111;
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: #111;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .list ul {
-    list-style-type: none;
-    padding-left: 20px;
+  list-style-type: none;
+  padding-left: 20px;
 }
